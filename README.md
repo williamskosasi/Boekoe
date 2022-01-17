@@ -6,8 +6,8 @@ User mencari buku yang diinginkan -> User membuka detail buku yang dipilih -> Us
 
 Ketika pertama kali melaunch website Boekoe, ada beberapa hal yang perlu dipersiapkan terkait dengan database.
 -	Create Database
-Database perlu dicreate dengan nama ‘boekoe’.
+  Database perlu dicreate dengan nama ‘boekoe’.
 -	Create Table
-Menjalankan command ‘php artisan migrate:fresh’ pada directory project boekoe.
+  Menjalankan command ‘php artisan migrate:fresh’ pada directory project boekoe.
 -	Register Admin
-Registrasi untuk admin bisa dilakukan selayaknya registrasi user biasa. Akan tetapi, ada satu langkah tambahan yang diperlukan yaitu mengubah value pada kolom ‘is_admin’ milik user admin pada table ‘users’ menjadi 1. Tujuannya adalah untuk menyatakan bahwa user tersebut adalah admin.
+  Registrasi untuk admin bisa dilakukan selayaknya registrasi user biasa. Akan tetapi, ada satu langkah tambahan yang diperlukan yaitu mengubah value pada kolom ‘is_admin’ milik user admin pada table ‘users’ menjadi 1. Tujuannya adalah untuk menyatakan bahwa user tersebut adalah admin.
