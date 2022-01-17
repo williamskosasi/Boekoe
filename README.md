@@ -3,6 +3,7 @@ Boekoe adalah aplikasi e-commerce berbasis website yang menjual berbagai jenis b
 
 User membeli buku yang tersedia di website yang mana buku-buku yang tersedia dikelola oleh admin. Untuk bisa membeli buku, user harus memiliki akun terlebih dahulu.
 
+
 Berikut adalah tahapan yang perlu dilakukan user untuk membeli buku:
 
 
