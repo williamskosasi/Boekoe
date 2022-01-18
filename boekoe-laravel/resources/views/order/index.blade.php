@@ -41,6 +41,9 @@
                     </button>
                     <input type="hidden" value="{{ $item->checkoutCounter }}" name="checkoutCounter">
                 </div>
+                <div>
+                    Transfer to 5198725454 (Bank Central Asia)
+                </div>
                 @elseif($item->status=='Waiting for payment' or $item->status=='Waiting for verification')
                 <div class="d-flex mb-3 align-items-center">
                     <input class="form-control form-control-md" id="image" name="image" type="file">
